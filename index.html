@@ -1,33 +1,70 @@
- </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
 <body>
-    <table border="0" cellpadding="0" cellspacing="0" style="width:600px;background-image:url(https://raw.githubusercontent.com/sordershakib43/email/main/bg8.jpg); padding: 20px;">
-        <tr>
-            <td width="35%">
-                <img style="max-width:100%;" src="https://raw.githubusercontent.com/sordershakib43/email/main/khabirul%201.png
-              " alt="">
+    <div class="container">
+        <div class="fbody">
 
-            </td>
-            <td width="65%" valign=top; style="padding-left: 40px;">
-                <h1 style="margin:0px ;">MD Khabirul Islam</h1>
-                <h4 style="margin: 10px 0px; border-bottom:2px solid black; padding-bottom:5px;">Web Degineer</h4>
-                <p>
-                    <img style="max-width:18px; margin-right:5px; vertical-align: middle; margin-top: -4px;" src="https://raw.githubusercontent.com/sordershakib43/email/main/fb2.png" alt="">facebook.com/id.link.diya.ki.korbi.03
-                </p>
-                <p>
-                    <img style="max-width:18px; margin-right:5px; vertical-align: middle; margin-top: -4px;" src="https://raw.githubusercontent.com/sordershakib43/email/main/email.png" alt="">sorder509@gmail.com
-                </p>
-                <p>
-                    <img style="max-width:18px; margin-right:5px; vertical-align: middle; margin-top: -4px;" src="https://raw.githubusercontent.com/sordershakib43/email/main/call3.png
-                    " alt="">01723787664
-                </p>
-                <p>
-                    <img style="max-width:18px; margin-right:5px; vertical-align: middle; margin-top: -4px;" src="https://raw.githubusercontent.com/sordershakib43/email/main/instragram.png
-                    " alt="">instagram.com/mdkhabirulshakib/
-                </p>
+            <form action="##">
+                <h1 class="fhead">Registration Form</h1>
+                <br>
+                <label for="name" class="label">Name</label>
+                <br>
+                <input class="input fn" type="text" placeholder="First Name">
+                <input class="input fn" type="text" placeholder="Last Name">
+                <br>
+                <label for="email" class="label">Email</label>
+                <br>
+                <input class="input" type="email" placeholder="Enter your Email">
+                <br>
+                <label class="input" for="number" class="label">Phone Number</label>
+                <br>
+                <input type="tel" name="" placeholder="Your Phone Number">
+                <br>
+                <label for="bdate" class="label">Date of Birth</label>
+                <br>
+                <input type="date" name="" id="" max="2004-01-01">
                 
-
-            </td>
-        </tr>
-
-    </table>
+                <label for="gender" class="label">Gender</label>
+                <select name="gender" id="gd">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select>
+                <br>
+                <label for="mt" class="label">Merital status</label>
+                <br>
+                <div class="mt">
+                    <input type="radio" name="mt" id="">
+                    <label for="Single">Single</label>
+                    <input type="radio" name="mt" id="">
+                    <label for="Marraged">Marreged</label>
+                    <input type="radio" name="mt" id="">
+                    <label for="Divorced">Divorced</label>
+                </div>
+                <label for="psw" class="label">Password</label>
+                <br>
+                <input type="password" name="paw" id="psw" placeholder="Enter your password">
+                <br>
+                <label for="file" class="label">Uplode Your Attachment</label>
+                <br>
+                <input type="file">
+                <br>
+                <input type="checkbox" required>
+                <label for="condition" class="label">I agree with the Terms  and the condition</label>
+                <br>
+                <input type="Submit">
+                
+            </form>
+        </div>
+    </div>
     
+</body>
+</html>
